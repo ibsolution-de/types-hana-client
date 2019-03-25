@@ -15,7 +15,7 @@ The IBsolution GmbH Materials may require certain third party software dependenc
 Add module depency by executing this command inside your project folder:
 
 ```
-npm install --save-dev github.com:ibsolution-de/-types-hana-client.git
+npm install --save-dev github:ibsolution-de/-types-hana-client
 ```
 
 ## Usage
