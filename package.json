@@ -2,7 +2,7 @@
   "private": true,
   "homepage": "https://github.com/ibsolution-de/-types-hana-client",
   "name": "@types/hana-client",
-  "version": "2.3.123",
+  "version": "2.3.134",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com:ibsolution-de/-types-hana-client.git"

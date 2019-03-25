@@ -18,6 +18,37 @@ Add module depency by executing this command inside your project folder:
 npm install --save-dev github.com:ibsolution-de/-types-hana-client.git
 ```
 
+## Usage
+
+Basic example how to start using @sap/hana-client in Typescript:
+
+```
+import { ConnectionOptions, createConnection } from '@sap/hana-client';
+
+const options: ConnectionOptions = {
+    host    : 'myserver',
+    port    : '30015',
+    uid     : 'system',
+    pwd     : 'manager'
+};
+
+const connection = createConnection();
+connection.connect(options, err => {
+    if (err) {
+        throw new Error(err);
+    }
+
+    // do something
+
+    // and disconnect
+    connection.disconnect(err => {
+        if (err) {
+            throw new Error(err);
+        }
+    });
+});
+```
+
 ## Support
 
 If you are interested to get support from us, please feel free to contact us or repository maintainer with email.
