@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "homepage": "https://github.com/ibsolution-de/-types-hana-client",
+  "name": "@types/hana-client",
+  "version": "2.3.123",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:ibsolution-de/-types-hana-client.git"
+  },
+  "author": {
+    "name": "IBsolution GmbH"
+  },
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "scripts": {
+    "lint": "dtslint types"
+  },
+  "devDependencies": {
+    "dtslint": "github:Microsoft/dtslint#production",
+    "types-publisher": "github:Microsoft/types-publisher#production"
+  },
+  "dependencies": {}
+}
