@@ -1,5 +1,4 @@
 {
-  "private": true,
   "homepage": "https://github.com/ibsolution-de/-types-hana-client",
   "name": "@types/hana-client",
   "version": "2.3.134",
