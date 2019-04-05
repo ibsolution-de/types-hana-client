@@ -51,7 +51,12 @@ connection.connect(options, err => {
 
 ## Support
 
-If you are interested to get support from us, please feel free to contact us or repository maintainer with email.
+If you are interested to get support from us, please feel free to contact us
+by using our support contact page
+
+https://www.ibsolution.com/ibsolution-service-request
+
+or repository maintainer with email.
 
 ## DISCLAMER
 
