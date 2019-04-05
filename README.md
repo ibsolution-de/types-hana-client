@@ -23,7 +23,7 @@ npm install --save-dev github:ibsolution-de/types-hana-client
 Basic example how to start using @sap/hana-client in Typescript:
 
 ```
-import { ConnectionOptions, createConnection } from '@sap/hana-client';
+import { ConnectionOptions, createConnection } from '@ibsolution/types-hana-client';
 
 const options: ConnectionOptions = {
     host    : 'myserver',

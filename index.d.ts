@@ -1,4 +1,4 @@
-declare module '@sap/hana-client' {
+declare module '@ibsolution/types-hana-client' {
     type HanaClientCallBack = (error: Error) => void;
     type HanaResultCallBack<T> = (error: Error, results: T) => void;
     type HanaStatementCallBack = (error: Error, stmt: Statement) => void;
