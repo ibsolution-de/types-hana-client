@@ -32,7 +32,7 @@
     "@sap/hana-client"
   ],
   "dependencies": {
-    "@sap/hana-client": "^2.4.126"
+    "@sap/hana-client": "^2.8.20"
   },
   "devDependencies": {
     "dtslint": "github:Microsoft/dtslint#production",
