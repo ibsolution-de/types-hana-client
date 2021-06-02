@@ -14,6 +14,7 @@ declare module '@ibsolution/types-hana-client' {
         schema?: string;
         databaseName?: string;
         autoCommit?: boolean;
+        ca?: string;
     }
 
     function createConnection(options?: ConnectionOptions): Connection;
