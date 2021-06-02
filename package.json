@@ -1,7 +1,7 @@
 {
   "homepage": "https://github.com/ibsolution-de/types-hana-client",
   "name": "@ibsolution/types-hana-client",
-  "version": "2.4.128",
+  "version": "2.8.20",
   "description": "Typescript support/bindings on top of @sap/hana-client SAP Nodejs module to work with Hana DB from Nodejs application.",
   "keywords": [
     "sap", "hana", "client", "hana-client", "typings", "types"
